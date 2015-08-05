@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<File gcff_version="1" type="staad_concept_link" version="1">
+  <Table name="Concrete">
+    <Column name="Key" type="Key" default="0"/>
+    <Column name="Name" type="String"/>
+    <Column name="Fc" type="Double" default="0" units="kip_/in_in_"/>
+    <Column name="Ec" type="Double" default="0" units="kip_/in_in_"/>
+    <Column name="Poisson" type="Double" default="0"/>
+    <Column name="Wc" type="Double" default="0" units="lbf_/ft_ft_ft_"/>
+    <Row>
+      <Key>1</Key>
+      <Name>BEAMPROPConcBm</Name>
+      <Fc>4.0</Fc>
+      <Ec>3600</Ec>
+      <Poisson>0.20</Poisson>
+      <Wc>149.99</Wc>
+    </Row>
+    <Row>
+      <Key>2</Key>
+      <Name>SLABPROPSLAB1</Name>
+      <Fc>4.0</Fc>
+      <Ec>3600</Ec>
+      <Poisson>0.20</Poisson>
+      <Wc>149.99</Wc>
+    </Row>
+    <Row>
+      <Key>3</Key>
+      <Name>SLABPROPPLANK1</Name>
+      <Fc>4.0</Fc>
+      <Ec>3600</Ec>
+      <Poisson>0.20</Poisson>
+      <Wc>149.99</Wc>
+    </Row>
+    <Row>
+      <Key>4</Key>
+      <Name>SLABPROPCol_Stiff</Name>
+      <Fc>4.0</Fc>
+      <Ec>3600</Ec>
+      <Poisson>0.20</Poisson>
+      <Wc>149.99</Wc>
+    </Row>
+    <Row>
+      <Key>5</Key>
+      <Name>COLUMNPROP1</Name>
+      <Fc>4.0</Fc>
+      <Ec>3600</Ec>
+      <Poisson>0.20</Poisson>
+      <Wc>149.99</Wc>
+    </Row>
+    <Row>
+      <Key>6</Key>
+      <Name>COLUMNPROP2</Name>
+      <Fc>4.0</Fc>
+      <Ec>3600</Ec>
+      <Poisson>0.20</Poisson>
+      <Wc>149.99</Wc>
+    </Row>
+    <Row>
+      <Key>7</Key>
+      <Name>COLUMNPROP3</Name>
+      <Fc>4.0</Fc>
+      <Ec>3600</Ec>
+      <Poisson>0.20</Poisson>
+      <Wc>149.99</Wc>
+    </Row>
+    <Row>
+      <Key>8</Key>
+      <Name>COLUMNPROP4</Name>
+      <Fc>4.0</Fc>
+      <Ec>3600</Ec>
+      <Poisson>0.20</Poisson>
+      <Wc>149.99</Wc>
+    </Row>
+    <Row>
+      <Key>9</Key>
+      <Name>COLUMNPROP5</Name>
+      <Fc>4.0</Fc>
+      <Ec>3600</Ec>
+      <Poisson>0.20</Poisson>
+      <Wc>149.99</Wc>
+    </Row>
+    <Row>
+      <Key>10</Key>
+      <Name>COLUMNPROP6</Name>
+      <Fc>4.0</Fc>
+      <Ec>3600</Ec>
+      <Poisson>0.20</Poisson>
+      <Wc>149.99</Wc>
+    </Row>
+    <Row>
+      <Key>11</Key>
+      <Name>COLUMNPROP7</Name>
+      <Fc>4.0</Fc>
+      <Ec>3600</Ec>
+      <Poisson>0.20</Poisson>
+      <Wc>149.99</Wc>
+    </Row>
+    <Row>
+      <Key>12</Key>
+      <Name>COLUMNPROP8</Name>
+      <Fc>4.0</Fc>
+      <Ec>3600</Ec>
+      <Poisson>0.20</Poisson>
+      <Wc>149.99</Wc>
+    </Row>
+    <Row>
+      <Key>13</Key>
+      <Name>COLUMNPROP9</Name>
+      <Fc>4.0</Fc>
+      <Ec>3600</Ec>
+      <Poisson>0.20</Poisson>
+      <Wc>149.99</Wc>
+    </Row>
+    <Row>
+      <Key>14</Key>
+      <Name>COLUMNPROP10</Name>
+      <Fc>4.0</Fc>
+      <Ec>3600</Ec>
+      <Poisson>0.20</Poisson>
+      <Wc>149.99</Wc>
+    </Row>
+    <Row>
+      <Key>15</Key>
+      <Name>COLUMNPROP11</Name>
+      <Fc>4.0</Fc>
+      <Ec>3600</Ec>
+      <Poisson>0.20</Poisson>
+      <Wc>149.99</Wc>
+    </Row>
+    <Row>
+      <Key>16</Key>
+      <Name>COLUMNPROP12</Name>
+      <Fc>4.0</Fc>
+      <Ec>3600</Ec>
+      <Poisson>0.20</Poisson>
+      <Wc>149.99</Wc>
+    </Row>
+    <Row>
+      <Key>17</Key>
+      <Name>COLUMNPROP13</Name>
+      <Fc>4.0</Fc>
+      <Ec>3600</Ec>
+      <Poisson>0.20</Poisson>
+      <Wc>149.99</Wc>
+    </Row>
+    <Row>
+      <Key>18</Key>
+      <Name>COLUMNPROP14</Name>
+      <Fc>4.0</Fc>
+      <Ec>3600</Ec>
+      <Poisson>0.20</Poisson>
+      <Wc>149.99</Wc>
+    </Row>
+    <Row>
+      <Key>19</Key>
+      <Name>COLUMNPROP15</Name>
+      <Fc>4.0</Fc>
+      <Ec>3600</Ec>
+      <Poisson>0.20</Poisson>
+      <Wc>149.99</Wc>
+    </Row>
+    <Row>
+      <Key>20</Key>
+      <Name>COLUMNPROP16</Name>
+      <Fc>4.0</Fc>
+      <Ec>3600</Ec>
+      <Poisson>0.20</Poisson>
+      <Wc>149.99</Wc>
+    </Row>
+  </Table>
+  <Table name="Beam">
+    <Column name="Key" type="Key" default="0"/>
+    <Column name="Location" type="LineSeg2D" units="ft_"/>
+    <Column name="Thickness" type="Double" default="0" units="in_"/>
+    <Column name="Width" type="Double" default="0" units="in_"/>
+    <Column name="SurfaceElevation" type="Double" default="0" units="in_"/>
+    <Column name="Priority" type="Int32" default="0"/>
+    <Column name="Concrete" type="Key" default="0" table_reference="Concrete"/>
+    <Row>
+      <Key>1</Key>
+      <Location>[[0][0]][[24][0]]</Location>
+      <Thickness>18</Thickness>
+      <Width>12</Width>
+      <SurfaceElevation>0</SurfaceElevation>
+      <Priority>0</Priority>
+      <Concrete>1</Concrete>
+    </Row>
+    <Row>
+      <Key>2</Key>
+      <Location>[[24][0]][[48][0]]</Location>
+      <Thickness>18</Thickness>
+      <Width>12</Width>
+      <SurfaceElevation>0</SurfaceElevation>
+      <Priority>0</Priority>
+      <Concrete>1</Concrete>
+    </Row>
+    <Row>
+      <Key>3</Key>
+      <Location>[[48][0]][[72][0]]</Location>
+      <Thickness>18</Thickness>
+      <Width>12</Width>
+      <SurfaceElevation>0</SurfaceElevation>
+      <Priority>0</Priority>
+      <Concrete>1</Concrete>
+    </Row>
+    <Row>
+      <Key>4</Key>
+      <Location>[[0][72]][[24][72]]</Location>
+      <Thickness>18</Thickness>
+      <Width>12</Width>
+      <SurfaceElevation>0</SurfaceElevation>
+      <Priority>0</Priority>
+      <Concrete>1</Concrete>
+    </Row>
+    <Row>
+      <Key>5</Key>
+      <Location>[[24][72]][[48][72]]</Location>
+      <Thickness>18</Thickness>
+      <Width>12</Width>
+      <SurfaceElevation>0</SurfaceElevation>
+      <Priority>0</Priority>
+      <Concrete>1</Concrete>
+    </Row>
+    <Row>
+      <Key>6</Key>
+      <Location>[[48][72]][[72][72]]</Location>
+      <Thickness>18</Thickness>
+      <Width>12</Width>
+      <SurfaceElevation>0</SurfaceElevation>
+      <Priority>0</Priority>
+      <Concrete>1</Concrete>
+    </Row>
+    <Row>
+      <Key>7</Key>
+      <Location>[[0][0]][[0][24]]</Location>
+      <Thickness>18</Thickness>
+      <Width>12</Width>
+      <SurfaceElevation>0</SurfaceElevation>
+      <Priority>0</Priority>
+      <Concrete>1</Concrete>
+    </Row>
+    <Row>
+      <Key>8</Key>
+      <Location>[[0][24]][[0][48]]</Location>
+      <Thickness>18</Thickness>
+      <Width>12</Width>
+      <SurfaceElevation>0</SurfaceElevation>
+      <Priority>0</Priority>
+      <Concrete>1</Concrete>
+    </Row>
+    <Row>
+      <Key>9</Key>
+      <Location>[[0][48]][[0][72]]</Location>
+      <Thickness>18</Thickness>
+      <Width>12</Width>
+      <SurfaceElevation>0</SurfaceElevation>
+      <Priority>0</Priority>
+      <Concrete>1</Concrete>
+    </Row>
+    <Row>
+      <Key>10</Key>
+      <Location>[[72][0]][[72][24]]</Location>
+      <Thickness>18</Thickness>
+      <Width>12</Width>
+      <SurfaceElevation>0</SurfaceElevation>
+      <Priority>0</Priority>
+      <Concrete>1</Concrete>
+    </Row>
+    <Row>
+      <Key>11</Key>
+      <Location>[[72][24]][[72][48]]</Location>
+      <Thickness>18</Thickness>
+      <Width>12</Width>
+      <SurfaceElevation>0</SurfaceElevation>
+      <Priority>0</Priority>
+      <Concrete>1</Concrete>
+    </Row>
+    <Row>
+      <Key>12</Key>
+      <Location>[[72][48]][[72][72]]</Location>
+      <Thickness>18</Thickness>
+      <Width>12</Width>
+      <SurfaceElevation>0</SurfaceElevation>
+      <Priority>0</Priority>
+      <Concrete>1</Concrete>
+    </Row>
+  </Table>
+  <Table name="Column">
+    <Column name="Key" type="Key" default="0"/>
+    <Column name="Location" type="Point2D" units="ft_"/>
+    <Column name="Angle" type="Double" default="0" units="rad_"/>
+    <Column name="Depth" type="Double" default="0" units="in_"/>
+    <Column name="Width" type="Double" default="0" units="in_"/>
+    <Column name="Height" type="Double" default="0" units="ft_"/>
+    <Column name="BelowSlab" type="Bool" default="false"/>
+    <Column name="FixedBottom" type="Bool" default="false"/>
+    <Column name="FixedTop" type="Bool" default="false"/>
+    <Column name="Concrete" type="Key" default="0" table_reference="Concrete"/>
+    <Row>
+      <Key>1</Key>
+      <Location>[0][0]</Location>
+      <Angle>0</Angle>
+      <Depth>18</Depth>
+      <Width>18</Width>
+      <Height>12</Height>
+      <FixedBottom>True</FixedBottom>
+      <FixedTop>True</FixedTop>
+      <Concrete>5</Concrete>
+    </Row>
+    <Row>
+      <Key>2</Key>
+      <Location>[0][24]</Location>
+      <Angle>0</Angle>
+      <Depth>18</Depth>
+      <Width>18</Width>
+      <Height>12</Height>
+      <FixedBottom>True</FixedBottom>
+      <FixedTop>True</FixedTop>
+      <Concrete>6</Concrete>
+    </Row>
+    <Row>
+      <Key>3</Key>
+      <Location>[0][48]</Location>
+      <Angle>0</Angle>
+      <Depth>18</Depth>
+      <Width>18</Width>
+      <Height>12</Height>
+      <FixedBottom>True</FixedBottom>
+      <FixedTop>True</FixedTop>
+      <Concrete>7</Concrete>
+    </Row>
+    <Row>
+      <Key>4</Key>
+      <Location>[0][72]</Location>
+      <Angle>0</Angle>
+      <Depth>18</Depth>
+      <Width>18</Width>
+      <Height>12</Height>
+      <FixedBottom>True</FixedBottom>
+      <FixedTop>True</FixedTop>
+      <Concrete>8</Concrete>
+    </Row>
+    <Row>
+      <Key>5</Key>
+      <Location>[24][0]</Location>
+      <Angle>0</Angle>
+      <Depth>18</Depth>
+      <Width>18</Width>
+      <Height>12</Height>
+      <FixedBottom>True</FixedBottom>
+      <FixedTop>True</FixedTop>
+      <Concrete>9</Concrete>
+    </Row>
+    <Row>
+      <Key>6</Key>
+      <Location>[24][24]</Location>
+      <Angle>0</Angle>
+      <Depth>18</Depth>
+      <Width>18</Width>
+      <Height>12</Height>
+      <FixedBottom>True</FixedBottom>
+      <FixedTop>True</FixedTop>
+      <Concrete>10</Concrete>
+    </Row>
+    <Row>
+      <Key>7</Key>
+      <Location>[24][48]</Location>
+      <Angle>0</Angle>
+      <Depth>18</Depth>
+      <Width>18</Width>
+      <Height>12</Height>
+      <FixedBottom>True</FixedBottom>
+      <FixedTop>True</FixedTop>
+      <Concrete>11</Concrete>
+    </Row>
+    <Row>
+      <Key>8</Key>
+      <Location>[24][72]</Location>
+      <Angle>0</Angle>
+      <Depth>18</Depth>
+      <Width>18</Width>
+      <Height>12</Height>
+      <FixedBottom>True</FixedBottom>
+      <FixedTop>True</FixedTop>
+      <Concrete>12</Concrete>
+    </Row>
+    <Row>
+      <Key>9</Key>
+      <Location>[48][0]</Location>
+      <Angle>0</Angle>
+      <Depth>18</Depth>
+      <Width>18</Width>
+      <Height>12</Height>
+      <FixedBottom>True</FixedBottom>
+      <FixedTop>True</FixedTop>
+      <Concrete>13</Concrete>
+    </Row>
+    <Row>
+      <Key>10</Key>
+      <Location>[48][24]</Location>
+      <Angle>0</Angle>
+      <Depth>18</Depth>
+      <Width>18</Width>
+      <Height>12</Height>
+      <FixedBottom>True</FixedBottom>
+      <FixedTop>True</FixedTop>
+      <Concrete>14</Concrete>
+    </Row>
+    <Row>
+      <Key>11</Key>
+      <Location>[48][48]</Location>
+      <Angle>0</Angle>
+      <Depth>18</Depth>
+      <Width>18</Width>
+      <Height>12</Height>
+      <FixedBottom>True</FixedBottom>
+      <FixedTop>True</FixedTop>
+      <Concrete>15</Concrete>
+    </Row>
+    <Row>
+      <Key>12</Key>
+      <Location>[48][72]</Location>
+      <Angle>0</Angle>
+      <Depth>18</Depth>
+      <Width>18</Width>
+      <Height>12</Height>
+      <FixedBottom>True</FixedBottom>
+      <FixedTop>True</FixedTop>
+      <Concrete>16</Concrete>
+    </Row>
+    <Row>
+      <Key>13</Key>
+      <Location>[72][0]</Location>
+      <Angle>0</Angle>
+      <Depth>18</Depth>
+      <Width>18</Width>
+      <Height>12</Height>
+      <FixedBottom>True</FixedBottom>
+      <FixedTop>True</FixedTop>
+      <Concrete>17</Concrete>
+    </Row>
+    <Row>
+      <Key>14</Key>
+      <Location>[72][24]</Location>
+      <Angle>0</Angle>
+      <Depth>18</Depth>
+      <Width>18</Width>
+      <Height>12</Height>
+      <FixedBottom>True</FixedBottom>
+      <FixedTop>True</FixedTop>
+      <Concrete>18</Concrete>
+    </Row>
+    <Row>
+      <Key>15</Key>
+      <Location>[72][48]</Location>
+      <Angle>0</Angle>
+      <Depth>18</Depth>
+      <Width>18</Width>
+      <Height>12</Height>
+      <FixedBottom>True</FixedBottom>
+      <FixedTop>True</FixedTop>
+      <Concrete>19</Concrete>
+    </Row>
+    <Row>
+      <Key>16</Key>
+      <Location>[72][72]</Location>
+      <Angle>0</Angle>
+      <Depth>18</Depth>
+      <Width>18</Width>
+      <Height>12</Height>
+      <FixedBottom>True</FixedBottom>
+      <FixedTop>True</FixedTop>
+      <Concrete>20</Concrete>
+    </Row>
+  </Table>
+  <Table name="Wall">
+    <Column name="Key" type="Key" default="0"/>
+    <Column name="Location" type="LineSeg2D" units="ft_"/>
+    <Column name="Thickness" type="Double" default="0" units="in_"/>
+    <Column name="Height" type="Double" default="0" units="ft_"/>
+    <Column name="BelowSlab" type="Bool" default="false"/>
+    <Column name="FixedBottom" type="Bool" default="false"/>
+    <Column name="FixedTop" type="Bool" default="false"/>
+    <Column name="Concrete" type="Key" default="0" table_reference="Concrete"/>
+  </Table>
+  <Table name="SlabArea">
+    <Column name="Key" type="Key" default="0"/>
+    <Column name="Location" type="Polygon2D" units="ft_"/>
+    <Column name="Thickness" type="Double" default="0" units="in_"/>
+    <Column name="SurfaceElevation" type="Double" default="0" units="in_"/>
+    <Column name="Priority" type="Int32" default="0"/>
+    <Column name="Concrete" type="Key" default="0" table_reference="Concrete"/>
+    <Row>
+      <Key>1</Key>
+      <Location>[[-0.5][-0.5]][[72.5][-0.5]][[72.5][72.5]][[-0.5][72.5]]</Location>
+      <Thickness>12</Thickness>
+      <SurfaceElevation>0</SurfaceElevation>
+      <Priority>0</Priority>
+      <Concrete>2</Concrete>
+    </Row>
+    <Row>
+      <Key>2</Key>
+      <Location>[[15.67][15.67]][[32.33][15.67]][[32.33][32.33]][[15.67][32.33]]</Location>
+      <Thickness>12</Thickness>
+      <SurfaceElevation>0</SurfaceElevation>
+      <Priority>0</Priority>
+      <Concrete>3</Concrete>
+    </Row>
+    <Row>
+      <Key>3</Key>
+      <Location>[[39.67][15.67]][[56.33][15.67]][[56.33][32.33]][[39.67][32.33]]</Location>
+      <Thickness>12</Thickness>
+      <SurfaceElevation>0</SurfaceElevation>
+      <Priority>0</Priority>
+      <Concrete>3</Concrete>
+    </Row>
+    <Row>
+      <Key>4</Key>
+      <Location>[[15.67][39.67]][[32.33][39.67]][[32.33][56.33]][[15.67][56.33]]</Location>
+      <Thickness>12</Thickness>
+      <SurfaceElevation>0</SurfaceElevation>
+      <Priority>0</Priority>
+      <Concrete>3</Concrete>
+    </Row>
+    <Row>
+      <Key>5</Key>
+      <Location>[[39.67][39.67]][[56.33][39.67]][[56.33][56.33]][[39.67][56.33]]</Location>
+      <Thickness>12</Thickness>
+      <SurfaceElevation>0</SurfaceElevation>
+      <Priority>0</Priority>
+      <Concrete>3</Concrete>
+    </Row>
+    <Row>
+      <Key>6</Key>
+      <Location>[[-0.75][-0.75]][[0.75][-0.75]][[0.75][0.75]][[-0.75][0.75]]</Location>
+      <Thickness>60</Thickness>
+      <SurfaceElevation>0</SurfaceElevation>
+      <Priority>0</Priority>
+      <Concrete>4</Concrete>
+    </Row>
+    <Row>
+      <Key>7</Key>
+      <Location>[[-0.75][23.25]][[0.75][23.25]][[0.75][24.75]][[-0.75][24.75]]</Location>
+      <Thickness>60</Thickness>
+      <SurfaceElevation>0</SurfaceElevation>
+      <Priority>0</Priority>
+      <Concrete>4</Concrete>
+    </Row>
+    <Row>
+      <Key>8</Key>
+      <Location>[[-0.75][47.25]][[0.75][47.25]][[0.75][48.75]][[-0.75][48.75]]</Location>
+      <Thickness>60</Thickness>
+      <SurfaceElevation>0</SurfaceElevation>
+      <Priority>0</Priority>
+      <Concrete>4</Concrete>
+    </Row>
+    <Row>
+      <Key>9</Key>
+      <Location>[[-0.75][71.25]][[0.75][71.25]][[0.75][72.75]][[-0.75][72.75]]</Location>
+      <Thickness>60</Thickness>
+      <SurfaceElevation>0</SurfaceElevation>
+      <Priority>0</Priority>
+      <Concrete>4</Concrete>
+    </Row>
+    <Row>
+      <Key>10</Key>
+      <Location>[[23.25][-0.75]][[24.75][-0.75]][[24.75][0.75]][[23.25][0.75]]</Location>
+      <Thickness>60</Thickness>
+      <SurfaceElevation>0</SurfaceElevation>
+      <Priority>0</Priority>
+      <Concrete>4</Concrete>
+    </Row>
+    <Row>
+      <Key>11</Key>
+      <Location>[[23.25][23.25]][[24.75][23.25]][[24.75][24.75]][[23.25][24.75]]</Location>
+      <Thickness>60</Thickness>
+      <SurfaceElevation>0</SurfaceElevation>
+      <Priority>0</Priority>
+      <Concrete>4</Concrete>
+    </Row>
+    <Row>
+      <Key>12</Key>
+      <Location>[[23.25][47.25]][[24.75][47.25]][[24.75][48.75]][[23.25][48.75]]</Location>
+      <Thickness>60</Thickness>
+      <SurfaceElevation>0</SurfaceElevation>
+      <Priority>0</Priority>
+      <Concrete>4</Concrete>
+    </Row>
+    <Row>
+      <Key>13</Key>
+      <Location>[[23.25][71.25]][[24.75][71.25]][[24.75][72.75]][[23.25][72.75]]</Location>
+      <Thickness>60</Thickness>
+      <SurfaceElevation>0</SurfaceElevation>
+      <Priority>0</Priority>
+      <Concrete>4</Concrete>
+    </Row>
+    <Row>
+      <Key>14</Key>
+      <Location>[[47.25][-0.75]][[48.75][-0.75]][[48.75][0.75]][[47.25][0.75]]</Location>
+      <Thickness>60</Thickness>
+      <SurfaceElevation>0</SurfaceElevation>
+      <Priority>0</Priority>
+      <Concrete>4</Concrete>
+    </Row>
+    <Row>
+      <Key>15</Key>
+      <Location>[[47.25][23.25]][[48.75][23.25]][[48.75][24.75]][[47.25][24.75]]</Location>
+      <Thickness>60</Thickness>
+      <SurfaceElevation>0</SurfaceElevation>
+      <Priority>0</Priority>
+      <Concrete>4</Concrete>
+    </Row>
+    <Row>
+      <Key>16</Key>
+      <Location>[[47.25][47.25]][[48.75][47.25]][[48.75][48.75]][[47.25][48.75]]</Location>
+      <Thickness>60</Thickness>
+      <SurfaceElevation>0</SurfaceElevation>
+      <Priority>0</Priority>
+      <Concrete>4</Concrete>
+    </Row>
+    <Row>
+      <Key>17</Key>
+      <Location>[[47.25][71.25]][[48.75][71.25]][[48.75][72.75]][[47.25][72.75]]</Location>
+      <Thickness>60</Thickness>
+      <SurfaceElevation>0</SurfaceElevation>
+      <Priority>0</Priority>
+      <Concrete>4</Concrete>
+    </Row>
+    <Row>
+      <Key>18</Key>
+      <Location>[[71.25][-0.75]][[72.75][-0.75]][[72.75][0.75]][[71.25][0.75]]</Location>
+      <Thickness>60</Thickness>
+      <SurfaceElevation>0</SurfaceElevation>
+      <Priority>0</Priority>
+      <Concrete>4</Concrete>
+    </Row>
+    <Row>
+      <Key>19</Key>
+      <Location>[[71.25][23.25]][[72.75][23.25]][[72.75][24.75]][[71.25][24.75]]</Location>
+      <Thickness>60</Thickness>
+      <SurfaceElevation>0</SurfaceElevation>
+      <Priority>0</Priority>
+      <Concrete>4</Concrete>
+    </Row>
+    <Row>
+      <Key>20</Key>
+      <Location>[[71.25][47.25]][[72.75][47.25]][[72.75][48.75]][[71.25][48.75]]</Location>
+      <Thickness>60</Thickness>
+      <SurfaceElevation>0</SurfaceElevation>
+      <Priority>0</Priority>
+      <Concrete>4</Concrete>
+    </Row>
+    <Row>
+      <Key>21</Key>
+      <Location>[[71.25][71.25]][[72.75][71.25]][[72.75][72.75]][[71.25][72.75]]</Location>
+      <Thickness>60</Thickness>
+      <SurfaceElevation>0</SurfaceElevation>
+      <Priority>0</Priority>
+      <Concrete>4</Concrete>
+    </Row>
+  </Table>
+  <Table name="SlabOpening">
+    <Column name="Key" type="Key" default="0"/>
+    <Column name="Location" type="Polygon2D" units="ft_"/>
+    <Column name="SurfaceElevation" type="Double" default="0" units="in_"/>
+    <Column name="Priority" type="Int32" default="0"/>
+    <Row>
+      <Key>1</Key>
+      <Location>[[7.2][66.26]][[13.83][65.6]][[11.71][61.35]][[5.34][59.89]]</Location>
+      <SurfaceElevation>0</SurfaceElevation>
+      <Priority>0</Priority>
+    </Row>
+  </Table>
+  <Table name="LoadCase">
+    <Column name="Key" type="Key" default="0"/>
+    <Column name="Name" type="String"/>
+    <Column name="LoadCaseType" type="String"/>
+    <Column name="AnalysisType" type="String"/>
+    <Row>
+      <Key>1</Key>
+      <Name>DEAD (SAFE 1)</Name>
+      <LoadCaseType>other_dead</LoadCaseType>
+      <AnalysisType>normal</AnalysisType>
+    </Row>
+    <Row>
+      <Key>2</Key>
+      <Name>LIVE (SAFE 2)</Name>
+      <LoadCaseType>live_reducible</LoadCaseType>
+      <AnalysisType>normal</AnalysisType>
+    </Row>
+    <Row>
+      <Key>3</Key>
+      <Name>LIVE (SAFE 3)</Name>
+      <LoadCaseType>live_reducible</LoadCaseType>
+      <AnalysisType>normal</AnalysisType>
+    </Row>
+  </Table>
+  <Table name="PointLoad">
+    <Column name="Key" type="Key" default="0"/>
+    <Column name="Location" type="Point2D" units="in_"/>
+    <Column name="Fx" type="Double" default="0" units="kip_"/>
+    <Column name="Fy" type="Double" default="0" units="kip_"/>
+    <Column name="Fz" type="Double" default="0" units="kip_"/>
+    <Column name="Mx" type="Double" default="0" units="kip_in_"/>
+    <Column name="My" type="Double" default="0" units="kip_in_"/>
+    <Column name="Mz" type="Double" default="0" units="kip_in_"/>
+    <Column name="Elevation" type="Double" default="0" units="in_"/>
+    <Column name="ElevationReference" type="String"/>
+    <Column name="LoadCase" type="Key" default="0" table_reference="LoadCase"/>
+  </Table>
+  <Table name="LineLoad">
+    <Column name="Key" type="Key" default="0"/>
+    <Column name="Location" type="LineSeg2D" units="ft_"/>
+    <Column name="Fx0" type="Double" default="0" units="lbf_/ft_"/>
+    <Column name="Fx1" type="Double" default="0" units="lbf_/ft_"/>
+    <Column name="Fy0" type="Double" default="0" units="lbf_/ft_"/>
+    <Column name="Fy1" type="Double" default="0" units="lbf_/ft_"/>
+    <Column name="Fz0" type="Double" default="0" units="lbf_/ft_"/>
+    <Column name="Fz1" type="Double" default="0" units="lbf_/ft_"/>
+    <Column name="Mx0" type="Double" default="0" units="lbf_"/>
+    <Column name="Mx1" type="Double" default="0" units="lbf_"/>
+    <Column name="My0" type="Double" default="0" units="lbf_"/>
+    <Column name="My1" type="Double" default="0" units="lbf_"/>
+    <Column name="Mz0" type="Double" default="0" units="lbf_"/>
+    <Column name="Mz1" type="Double" default="0" units="lbf_"/>
+    <Column name="Elevation" type="Double" default="0" units="in_"/>
+    <Column name="ElevationReference" type="String"/>
+    <Column name="LoadCase" type="Key" default="0" table_reference="LoadCase"/>
+  </Table>
+  <Table name="AreaLoad">
+    <Column name="Key" type="Key" default="0"/>
+    <Column name="Location" type="Polygon2D" units="ft_"/>
+    <Column name="Fx" type="Double" default="0" units="lbf_/ft_ft_"/>
+    <Column name="dFx_dx" type="Double" default="0" units="lbf_/ft_ft_ft_"/>
+    <Column name="dFx_dy" type="Double" default="0" units="lbf_/ft_ft_ft_"/>
+    <Column name="Fy" type="Double" default="0" units="lbf_/ft_ft_"/>
+    <Column name="dFy_dx" type="Double" default="0" units="lbf_/ft_ft_ft_"/>
+    <Column name="dFy_dy" type="Double" default="0" units="lbf_/ft_ft_ft_"/>
+    <Column name="Fz" type="Double" default="0" units="lbf_/ft_ft_"/>
+    <Column name="dFz_dx" type="Double" default="0" units="lbf_/ft_ft_ft_"/>
+    <Column name="dFz_dy" type="Double" default="0" units="lbf_/ft_ft_ft_"/>
+    <Column name="Mx" type="Double" default="0" units="lbf_/ft_"/>
+    <Column name="dMx_dx" type="Double" default="0" units="lbf_/ft_ft_"/>
+    <Column name="dMx_dy" type="Double" default="0" units="lbf_/ft_ft_"/>
+    <Column name="My" type="Double" default="0" units="lbf_/ft_"/>
+    <Column name="dMy_dx" type="Double" default="0" units="lbf_/ft_ft_"/>
+    <Column name="dMy_dy" type="Double" default="0" units="lbf_/ft_ft_"/>
+    <Column name="Mz" type="Double" default="0" units="lbf_/ft_"/>
+    <Column name="dMz_dx" type="Double" default="0" units="lbf_/ft_ft_"/>
+    <Column name="dMz_dy" type="Double" default="0" units="lbf_/ft_ft_"/>
+    <Column name="Elevation" type="Double" default="0" units="in_"/>
+    <Column name="ElevationReference" type="String"/>
+    <Column name="LoadCase" type="Key" default="0" table_reference="LoadCase"/>
+    <Row>
+      <Key>1</Key>
+      <Location>[[-0.5][-0.5]][[72.5][-0.5]][[72.5][72.5]][[-0.5][72.5]]</Location>
+      <Fx>0</Fx>
+      <dFx_dx>0</dFx_dx>
+      <dFx_dy>0</dFx_dy>
+      <Fy>0</Fy>
+      <dFy_dx>0</dFy_dx>
+      <dFy_dy>0</dFy_dy>
+      <Fz>288000</Fz>
+      <dFz_dx>0</dFz_dx>
+      <dFz_dy>0</dFz_dy>
+      <Mx>0</Mx>
+      <dMx_dx>0</dMx_dx>
+      <dMx_dy>0</dMx_dy>
+      <My>0</My>
+      <dMy_dx>0</dMy_dx>
+      <dMy_dy>0</dMy_dy>
+      <Mz>0</Mz>
+      <dMz_dx>0</dMz_dx>
+      <dMz_dy>0</dMz_dy>
+      <Elevation>0</Elevation>
+      <ElevationReference>surface</ElevationReference>
+      <LoadCase>1</LoadCase>
+    </Row>
+    <Row>
+      <Key>2</Key>
+      <Location>[[-0.5][-0.5]][[72.5][-0.5]][[72.5][72.5]][[-0.5][72.5]]</Location>
+      <Fx>0</Fx>
+      <dFx_dx>0</dFx_dx>
+      <dFx_dy>0</dFx_dy>
+      <Fy>0</Fy>
+      <dFy_dx>0</dFy_dx>
+      <dFy_dy>0</dFy_dy>
+      <Fz>432000</Fz>
+      <dFz_dx>0</dFz_dx>
+      <dFz_dy>0</dFz_dy>
+      <Mx>0</Mx>
+      <dMx_dx>0</dMx_dx>
+      <dMx_dy>0</dMx_dy>
+      <My>0</My>
+      <dMy_dx>0</dMy_dx>
+      <dMy_dy>0</dMy_dy>
+      <Mz>0</Mz>
+      <dMz_dx>0</dMz_dx>
+      <dMz_dy>0</dMz_dy>
+      <Elevation>0</Elevation>
+      <ElevationReference>surface</ElevationReference>
+      <LoadCase>2</LoadCase>
+    </Row>
+  </Table>
+</File>

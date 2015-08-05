@@ -1,0 +1,184 @@
+$ File  C:\Users\zhangsquare\Desktop\Work\Etabs\Modify\openingAndLoads.EDB saved  5/12/14 17:37:52 in Kip-in
+  SAFE 8.0.0
+  UNITS  Kip  IN
+$ TITLES
+  TITLE1  "wz"
+  TITLE2  ""
+$ GRIDS
+  GRID  "GLOBAL"  X  "A"  0
+  GRID  "GLOBAL"  X  "  "  188
+  GRID  "GLOBAL"  X  "B"  288
+  GRID  "GLOBAL"  X  "  "  388
+  GRID  "GLOBAL"  X  "  "  476
+  GRID  "GLOBAL"  X  "C"  576
+  GRID  "GLOBAL"  X  "  "  676
+  GRID  "GLOBAL"  X  "D"  864
+  GRID  "GLOBAL"  Y  "1"  0
+  GRID  "GLOBAL"  Y  "  "  188
+  GRID  "GLOBAL"  Y  "2"  288
+  GRID  "GLOBAL"  Y  "  "  388
+  GRID  "GLOBAL"  Y  "  "  476
+  GRID  "GLOBAL"  Y  "3"  576
+  GRID  "GLOBAL"  Y  "  "  676
+  GRID  "GLOBAL"  Y  "4"  864
+$ BEAM PROPERTIES
+  BEAMPROP  "ConcBm"  E 3600  U 0.2  W 0.0000868
+  BEAMPROP  "ConcBm"  TYPE R  B 12  D 18
+  BEAMPROP  "ConcBm"  DSNSEC  0
+  BEAMPROP  "ConcBm"  BDESIGN 12  DDESIGN 18
+  BEAMPROP  "ConcBm"  CT 1.8  CB 1.8
+  BEAMPROP  "ConcBm"  FC 4  FY 60  FYS 60  FCS 4
+$ SLAB PROPERTIES
+  SLABPROP  "SLAB1"  E 3600  U 0.2  W 0.0000868
+  SLABPROP  "SLAB1"  TII 12  TJJ 12  TIJ 12  TYPE THICK
+  SLABPROP  "SLAB1"  TDESIGN 12  CTI 1.2  CTJ 1.2  CBI 1.2  CBJ 1.2
+  SLABPROP  "SLAB1"  FC 4  FY 60
+  SLABPROP  "PLANK1"  E 3600  U 0.2  W 0.0000868
+  SLABPROP  "PLANK1"  TII 12  TJJ 12  TIJ 12  TYPE THICK
+  SLABPROP  "PLANK1"  TDESIGN 12  CTI 1.2  CTJ 1.2  CBI 1.2  CBJ 1.2
+  SLABPROP  "PLANK1"  FC 4  FY 60
+  SLABPROP  "Col_Stiff"  E 3600  U 0.2  W 0.0000868
+  SLABPROP  "Col_Stiff"  TII 60  TJJ 60  TIJ 60  TYPE THICK
+  SLABPROP  "Col_Stiff"  DESIGN NO
+$ COLUMN PROPERTIES
+  COLUMNPROP  "1"  TYPE R  E 3600  U 0.2  B 18  D 18  H 144
+  COLUMNPROP  "2"  TYPE R  E 3600  U 0.2  B 18  D 18  H 144
+  COLUMNPROP  "3"  TYPE R  E 3600  U 0.2  B 18  D 18  H 144
+  COLUMNPROP  "4"  TYPE R  E 3600  U 0.2  B 18  D 18  H 144
+  COLUMNPROP  "5"  TYPE R  E 3600  U 0.2  B 18  D 18  H 144
+  COLUMNPROP  "6"  TYPE R  E 3600  U 0.2  B 18  D 18  H 144
+  COLUMNPROP  "7"  TYPE R  E 3600  U 0.2  B 18  D 18  H 144
+  COLUMNPROP  "8"  TYPE R  E 3600  U 0.2  B 18  D 18  H 144
+  COLUMNPROP  "9"  TYPE R  E 3600  U 0.2  B 18  D 18  H 144
+  COLUMNPROP  "10"  TYPE R  E 3600  U 0.2  B 18  D 18  H 144
+  COLUMNPROP  "11"  TYPE R  E 3600  U 0.2  B 18  D 18  H 144
+  COLUMNPROP  "12"  TYPE R  E 3600  U 0.2  B 18  D 18  H 144
+  COLUMNPROP  "13"  TYPE R  E 3600  U 0.2  B 18  D 18  H 144
+  COLUMNPROP  "14"  TYPE R  E 3600  U 0.2  B 18  D 18  H 144
+  COLUMNPROP  "15"  TYPE R  E 3600  U 0.2  B 18  D 18  H 144
+  COLUMNPROP  "16"  TYPE R  E 3600  U 0.2  B 18  D 18  H 144
+$ WALL PROPERTIES
+$ SOIL PROPERTIES
+$ POINT COORDINATES
+  POINT  "1"  0  0
+  POINT  "2"  0  288
+  POINT  "3"  0  576
+  POINT  "4"  0  864
+  POINT  "5"  288  0
+  POINT  "6"  288  288
+  POINT  "7"  288  576
+  POINT  "8"  288  864
+  POINT  "9"  576  0
+  POINT  "10"  576  288
+  POINT  "11"  576  576
+  POINT  "12"  576  864
+  POINT  "13"  864  0
+  POINT  "14"  864  288
+  POINT  "15"  864  576
+  POINT  "16"  864  864
+$ LINE CONNECTIVITY
+  LINE  "B1"  0  0  288  0  
+  LINE  "B2"  288  0  576  0  
+  LINE  "B3"  576  0  864  0  
+  LINE  "B4"  0  864  288  864  
+  LINE  "B5"  288  864  576  864  
+  LINE  "B6"  576  864  864  864  
+  LINE  "B7"  0  0  0  288  
+  LINE  "B8"  0  288  0  576  
+  LINE  "B9"  0  576  0  864  
+  LINE  "B10"  864  0  864  288  
+  LINE  "B11"  864  288  864  576  
+  LINE  "B12"  864  576  864  864  
+$ AREA CONNECTIVITY
+  AREA  "F1"  4 -6  -6  870  -6  870  870  -6  870  
+  AREA  "F2"  4 188  188  388  188  388  388  188  388  
+  AREA  "F3"  4 476  188  676  188  676  388  476  388  
+  AREA  "F4"  4 188  476  388  476  388  676  188  676  
+  AREA  "F5"  4 476  476  676  476  676  676  476  676  
+  AREA  "A1"  4 86.36216  795.1588  166.0031  787.1947  140.518  736.2244  64.06268  718.7034  
+  AREA  "1"  4 -9  -9  9  -9  9  9  -9  9  
+  AREA  "2"  4 -9  279  9  279  9  297  -9  297  
+  AREA  "3"  4 -9  567  9  567  9  585  -9  585  
+  AREA  "4"  4 -9  855  9  855  9  873  -9  873  
+  AREA  "5"  4 279  -9  297  -9  297  9  279  9  
+  AREA  "6"  4 279  279  297  279  297  297  279  297  
+  AREA  "7"  4 279  567  297  567  297  585  279  585  
+  AREA  "8"  4 279  855  297  855  297  873  279  873  
+  AREA  "9"  4 567  -9  585  -9  585  9  567  9  
+  AREA  "10"  4 567  279  585  279  585  297  567  297  
+  AREA  "11"  4 567  567  585  567  585  585  567  585  
+  AREA  "12"  4 567  855  585  855  585  873  567  873  
+  AREA  "13"  4 855  -9  873  -9  873  9  855  9  
+  AREA  "14"  4 855  279  873  279  873  297  855  297  
+  AREA  "15"  4 855  567  873  567  873  585  855  585  
+  AREA  "16"  4 855  855  873  855  873  873  855  873  
+$ BEAM ASSIGNS
+  BEAM  "B1"  "ConcBm"
+  BEAM  "B2"  "ConcBm"
+  BEAM  "B3"  "ConcBm"
+  BEAM  "B4"  "ConcBm"
+  BEAM  "B5"  "ConcBm"
+  BEAM  "B6"  "ConcBm"
+  BEAM  "B7"  "ConcBm"
+  BEAM  "B8"  "ConcBm"
+  BEAM  "B9"  "ConcBm"
+  BEAM  "B10"  "ConcBm"
+  BEAM  "B11"  "ConcBm"
+  BEAM  "B12"  "ConcBm"
+$ SLAB ASSIGNS
+  SLAB  "F1"  "SLAB1"
+  SLAB  "F2"  "PLANK1"
+  SLAB  "F3"  "PLANK1"
+  SLAB  "F4"  "PLANK1"
+  SLAB  "F5"  "PLANK1"
+  OPENING  "A1"
+  SLAB  "1"  "Col_Stiff"
+  SLAB  "2"  "Col_Stiff"
+  SLAB  "3"  "Col_Stiff"
+  SLAB  "4"  "Col_Stiff"
+  SLAB  "5"  "Col_Stiff"
+  SLAB  "6"  "Col_Stiff"
+  SLAB  "7"  "Col_Stiff"
+  SLAB  "8"  "Col_Stiff"
+  SLAB  "9"  "Col_Stiff"
+  SLAB  "10"  "Col_Stiff"
+  SLAB  "11"  "Col_Stiff"
+  SLAB  "12"  "Col_Stiff"
+  SLAB  "13"  "Col_Stiff"
+  SLAB  "14"  "Col_Stiff"
+  SLAB  "15"  "Col_Stiff"
+  SLAB  "16"  "Col_Stiff"
+$ COLUMN ASSIGNS
+  COLUMN  "1"  "1"
+  COLUMN  "2"  "2"
+  COLUMN  "3"  "3"
+  COLUMN  "4"  "4"
+  COLUMN  "5"  "5"
+  COLUMN  "6"  "6"
+  COLUMN  "7"  "7"
+  COLUMN  "8"  "8"
+  COLUMN  "9"  "9"
+  COLUMN  "10"  "10"
+  COLUMN  "11"  "11"
+  COLUMN  "12"  "12"
+  COLUMN  "13"  "13"
+  COLUMN  "14"  "14"
+  COLUMN  "15"  "15"
+  COLUMN  "16"  "16"
+$ WALL ASSIGNS
+$ SOIL ASSIGNS
+$ RELEASE ASSIGNS
+$ LOADS
+  LOAD "DEAD"  TYPE  DEAD  SELFWEIGHT  1  LTDFACTOR  3
+  AREALOAD  "DEAD"  "F1"  W  2
+  LOAD "LIVE"  TYPE  LIVE  SELFWEIGHT  0  LTDFACTOR  1
+  AREALOAD  "LIVE"  "F1"  W  3
+  LOAD "CUSTOM"  TYPE  LIVE  SELFWEIGHT  0  LTDFACTOR  1
+$ LOADING COMBINATIONS
+  COMBO "COMB1   "  
+  COMBOFACTOR "COMB1   "  "DEAD    "  1.2
+  COMBOFACTOR "COMB1   "  "LIVE    "  1.5
+  COMBO "COMB2   "  
+  COMBOFACTOR "COMB2   "  "CUSTOM  "  3
+  END
+$ END OF MODEL FILE
