@@ -6,7 +6,7 @@
     <Column name="Fc" type="Double" default="0" units="kip_/in_in_"/>
     <Column name="Ec" type="Double" default="0" units="kip_/in_in_"/>
     <Column name="Poisson" type="Double" default="0"/>
-    <Column name="Wc" type="Double" default="0" units="lbf_/ft_ft_ft_"/>
+    <Column name="Wc" type="Double" default="0" units="lbm_/ft_ft_ft_"/>
     <Row>
       <Key>1</Key>
       <Name>BEAMPROP20X16BM4K</Name>
